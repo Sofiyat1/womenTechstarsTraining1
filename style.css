@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    margin: auto 0;
+    height: 650px;
+    background-color: lightgray;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#menu{
+    height: 20px;
+    width: 20px;
+}
+
+#cart{
+    height: 30px;
+    width: 20px;
+}
+
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    padding: 20px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid transparent;
+}
+
+.aviator{
+    width: 300px;
+    margin-top: 10%;
+    border: 1px solid transparent;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.precio{
+    margin-top: 20px;
+}
+
+.line-through{
+    text-decoration: line-through;
+    font-weight: 700;
+    display: inline;
+}
+
+
+.aviator > h2{
+    margin-bottom: 15px;
+}
+
+.aviator button{
+    width: 150px;
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+#img2{
+    width: 400px;
+    margin-bottom: 2%;
+}
+
+/* Arrow Up */
+.arrowUp{
+    margin-top: 50%;
+    margin-left: 35%;
+}
+.arrowUp > p{
+    display: inline;
+}
+
+.arrowUp > img{
+    height: 15px;
+    width: 15px;
+}
+
+
+/* Arrow Left and Right */
+.arrowLeftRight {
+    display: flex;
+    align-items: center; 
+    margin-left: 35%;
+    margin-top: 30px;
+  }
+  
+  .arrowLeftRight img {
+    width: 20px; 
+    height: 15px; 
+    margin: 0 10px;
+  }
+  
+  .arrowLeftRight p {
+    font-size: 16px; 
+  }
+
+  #arrowRight{
+    width: 8px; 
+    height: 10px; 
+   
+  }
+
+.linerow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    margin-bottom: 70px;
+    gap: 30px;
+    flex-direction: row;
+}
+
+.grid {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 100%;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px; 
+    margin-bottom: 60px;
+    
+  }
+  
+  .grid-item {
+    position: relative;
+    text-align: center;
+    background-color: lightgrey;
+    width: 250px;
+    height: 350px;
+  }
+
+  .grid-item img {
+    margin: 20px;
+    width: 50%
+  }
+
+  .grid-item h2{
+    position: absolute;
+    font-size: 22px;
+    margin-bottom: 40px;
+    top: 70%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .grid-item p{
+    padding: 10px;
+    margin-top: 25%;
+    text-align: center;
+  }
+
+  .grid-item button{
+    width: 150px;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .cart-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+  }
+
+  .cart-icon img{
+    width: 20px;
+  }
+  
+  .box{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
