@@ -6,9 +6,8 @@
 }
 
 .container{
-    margin: auto 0;
     height: 650px;
-    background-color: lightgray;
+    background-color: #F3F3F3;
 }
 
 nav{
@@ -16,18 +15,24 @@ nav{
     align-items: center;
     justify-content: space-between;
     border: 1px solid transparent;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 #menu{
     height: 20px;
     width: 20px;
+    cursor: pointer;
 }
 
 #cart{
     height: 30px;
     width: 20px;
+    cursor: pointer;
+}
+
+.cartText{
+  cursor: pointer;
 }
 
 .right-nav{
@@ -37,14 +42,15 @@ nav{
 
 .login{
     padding: 20px;
+    cursor: pointer;
 }
 
 section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 90px;
+    margin-right: 90px;
     border: 1px solid transparent;
 }
 
@@ -60,12 +66,16 @@ section{
     margin-top: 20px;
 }
 
-.line-through{
+.price-1{
     text-decoration: line-through;
     font-weight: 700;
     display: inline;
 }
 
+.price-2{
+    font-weight: 700;
+    display: inline;
+}
 
 .aviator > h2{
     margin-bottom: 15px;
@@ -76,66 +86,67 @@ section{
     padding: 10px;
     font-size: 13px;
     margin-top: 30px;
-}
-
-#img2{
-    width: 400px;
-    margin-bottom: 2%;
+    cursor: pointer;
 }
 
 /* Arrow Up */
 .arrowUp{
-    margin-top: 50%;
-    margin-left: 35%;
+  margin-top: 50%;
+  margin-left: 35%;
 }
 .arrowUp > p{
-    display: inline;
+  display: inline;
+  font-size: 13px;
 }
 
 .arrowUp > img{
-    height: 15px;
-    width: 15px;
+  height: 13px;
+  width: 13px;
+  cursor: pointer;
+}
+
+
+#img2{
+    width: 400px;
 }
 
 
 /* Arrow Left and Right */
 .arrowLeftRight {
     display: flex;
-    align-items: center; 
+    align-items: center;
     margin-left: 35%;
     margin-top: 30px;
   }
   
   .arrowLeftRight img {
-    width: 20px; 
-    height: 15px; 
-    margin: 0 10px;
+    width: 18px; 
+    height: 13px; 
+    margin: 0 5px;
+    cursor: pointer;
   }
   
   .arrowLeftRight p {
-    font-size: 16px; 
+    font-size: 13px; 
   }
 
   #arrowRight{
-    width: 8px; 
-    height: 10px; 
-   
+    width: 7px; 
+    height: 9px;
+    margin: 0 10px; 
   }
 
 .linerow{
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 40px;
     margin-bottom: 70px;
     gap: 30px;
-    flex-direction: row;
 }
 
 .grid {
     display: flex;
     justify-content: center; 
-    align-items: center; 
     width: 100%; 
     height: 100%;
   }
@@ -152,7 +163,7 @@ section{
   .grid-item {
     position: relative;
     text-align: center;
-    background-color: lightgrey;
+    background-color: #F3F3F3;
     width: 250px;
     height: 350px;
   }
@@ -182,6 +193,7 @@ section{
     width: 150px;
     padding: 10px;
     font-size: 13px;
+    cursor: pointer;
   }
   .cart-icon {
     position: absolute;
